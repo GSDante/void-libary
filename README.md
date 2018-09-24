@@ -9,4 +9,9 @@ Implementation of some utilitarian functions in generic pointers:
   cmp_big_than_float
   void_linear_search
   void_swap
+  void_binary_search
+  min
+  reverse
+  copy
+  clone
 
