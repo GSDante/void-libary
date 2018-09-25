@@ -30,3 +30,5 @@ void reverse ( void * first, void * last, size_t size);
 void * copy ( const void * first, const void * last, const void * d_first, size_t size);
 
 void * clone( const void * first, const void * last, size_t size);
+
+int compare_ints( const void * aa, const void * bb );

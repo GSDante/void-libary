@@ -154,3 +154,12 @@ void * clone( const void * first, const void * last, size_t size)
 	return new_first;
 
 }
+
+int compare_ints( const void * aa, const void * bb )
+{
+    const int *a = static_cast< const int *> (aa);
+    const int *b = static_cast< const int *> (bb);
+    if ( *a < *b ) return -1;
+    else if ( *a > *b ) return 1;
+    else return 0;
+}
